@@ -1,20 +1,30 @@
 * {
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    margin-top: 0;
 
 }
 
+body {
+    background-color: rgba(110, 138, 161, 0.315);
+}
 
 .wrapper {
-    background-color: #1f2937;
-    padding: 20px 200px 130px 200px;
-    margin: 0;
     max-width: 1300px;
     margin-left: auto;
     margin-right: auto;
     display: flex;
     flex-direction: column;
-    gap: 90px;
+    gap: 100px;
+}
+
+.wrapperhero {
+    background-color: #1f2937;
+    padding: 20px 200px 130px 200px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
 }
 
 header {
@@ -64,7 +74,106 @@ a {
 }
 
 .wrapperunderheader img {
-    max-height: 250px;
+    max-height: 200px;
+    width: 100%;
     align-self: center;
     object-fit: cover;
+}
+
+.wrapperbox {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.box {
+    margin-bottom: 60px;
+}
+
+.box {
+    height: 180px;
+    width: 180px;
+    text-align: center;
+}
+
+.boxborder {
+    border-style: solid;
+    border-radius: 15px;
+    border-color: #3882f6;
+    border-width: 5px;
+    height: 180px;
+    width: 180px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.wrapperquote {
+    background-color: #e5e7eb;
+    padding: 130px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.wrapperquote p {
+    font-style: italic;
+    font-weight: 100;
+    font-size: 35px;
+    width: 830px;
+    align-self: center;
+    text-align: left;
+}
+
+.wrapperquote .thor {
+    font-style: normal;
+    font-weight: bold;
+    text-align: right;
+}
+
+.wrapperaction {
+    display: flex;
+    justify-content: center;
+}
+
+.banneraction {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    width: 1000px;
+    background-color: #3882f6;
+    padding: 40px 0px 30px;
+    border-radius: 15px;
+}
+
+
+.action {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+
+.signupbtn {
+    color: white;
+    background: none;
+    border-style: solid;
+    border-color: white;
+    border-radius: 15px;
+    height: 40px;
+    width: 150px;
+    font-size: 20px;
+    font-weight: bold;
+    align-self: center;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0px 30px;
+    background-color: #1f2937;
 }
